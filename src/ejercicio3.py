@@ -18,7 +18,7 @@ def sacar_impares(numero_ingresado:int):
 
 def imprimir_impares(lista_de_impares:list):
     for numero_impar in lista_de_impares:
-        print(numero_impar)
+        print(numero_impar, end=",")
         
 if __name__ == "__main__":
     numero_ingresado = solicitar_numero()
